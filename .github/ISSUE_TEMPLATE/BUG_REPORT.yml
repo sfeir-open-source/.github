@@ -1,0 +1,43 @@
+name: Bug report
+description: Create a bug report.
+title: '[Bug]: '
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      placeholder: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: >-
+        Steps to reproduce the behavior, please provide code snippets or a
+        repository:
+      placeholder: >-
+        Go to '…'  then click on '…' and scroll down to '…' so finally you see
+        error
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      placeholder: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      placeholder: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    attributes:
+      label: System information
+      description: If applicable to the project
+      placeholder: OS, Browser, node version
+  - type: textarea
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://www.issue-forms-creator.app/)
